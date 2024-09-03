@@ -11,4 +11,9 @@ public class ContainsDuplicate {
         }
         return false;
     }
+    public static void main(String[] args) {
+        ContainsDuplicate checker = new ContainsDuplicate();
+        int[] nums = {1, 2, 3, 4, 5, 6, 1};
+        System.out.println(checker.containsDuplicate(nums)); // Output: true
+    }
 }
